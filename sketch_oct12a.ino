@@ -52,7 +52,7 @@ void setup() {
   display.setCursor(10, 10);
   display.println("HALLO");
   display.setCursor(10, 32);
-  display.println("STERRE!");
+  display.println("SECRET!");
   display.display();
 
   delay(2000);
