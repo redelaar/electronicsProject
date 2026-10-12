@@ -74,7 +74,7 @@ void loop() {
     reps = 0;
     lastRepTime = millis();
 
-    Serial.println("RESET! Teller terug naar 0");
+    Serial.println("RESET! Teller terug naar 0.");
   }
 
   previousButtonState = buttonState;
