@@ -84,7 +84,7 @@ void loop() {
     reps++;
     lastRepTime = millis();
 
-    Serial.print("Nieuwe rep! Totaal: ");
+    Serial.print("Nieuwe X! Totaal: ");
     Serial.println(reps);
   }
 
@@ -93,7 +93,7 @@ void loop() {
 
   display.setTextSize(1);
   display.setCursor(0, 0);
-  display.println("STERRE'S GYM");
+  display.println("SECRETMESSAGE");
 
   // Horizontale scheidingslijn
   display.drawLine(
@@ -102,7 +102,7 @@ void loop() {
 
   display.setTextSize(1);
   display.setCursor(0, 20);
-  display.println("REPS COMPLETED:");
+  display.println("SECRETMESSAGE2:");
 
   // Grote teller
   display.setTextSize(3);
